@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
+    />
+
+    <!-- HOSTED -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="fonts/mdi/css/materialdesignicons.min.css"
+      media="all"
+      rel="stylesheet"
+    />
+
+    <!-- LOCAL -->
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+
+    <!-- HOSTED -->
+    <script src="cdnjs.cloudflare/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <script src="ajax.googleapis/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="cdnjs.cloudflare/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+    <script src="cdnjs.cloudflare/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+
+            
+            
+    <!-- LOCAL -->
+    <script src="scripts/pt.min.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/modal.js"></script>
+  </head>
+  <body>
+    <div class="overflow-wrap">
+      <!-- HOME -->
+      <div class="modal-wrap flex">
+        <div class="mask"></div>
+        <div class="modal" id="modal">
+          <div class="carousel-wrap">
+            <div class="window">
+              <div id="carousel">
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+              </div>
+              <i class="mdi mdi-chevron-left" id="prev"></i>
+              <i class="mdi mdi-chevron-right" id="next"></i>
+            </div>
+          </div>
+          <div class="info-box">
+            <div class="title"></div>
+            <div class="tag"></div>
+            <div class="detail"></div>
+            <a href="#" target="_blank"
+              ><div class="button">
+                <i class="mdi mdi-open-in-new"></i>VIEW SITE
+              </div></a
+            >
+          </div>
+          <i class="close mdi mdi-close"></i>
+        </div>
+      </div>
+
+      <section id="home" class="flex height-fix">
+        <div id="" class="canvas"></div>
+        <div class="flex">
+          <div class="text" text-align: left; style="font-size:25px">
+        <b style="font-size:40px; font-style:verdana;"> Hey, I'm </b> <span class="highlight" style="font-size:35px; background-color:rgb(233, 130, 233); color:purple; font-style:cursive;"><b>Shanzay Tariq</b></span>
+            <br >
+            A full-stack web developer who designs the finest websites and keeps 
+            track<br> of the changing web environment to build websites that speak themselves.    
+            <br>I am specialized in developing sites for individuals, small businesses and<br> large enterprises.
+          </div>
+
+          <div class="button page-link" dest="about">
+            View my work <i class="mdi mdi-arrow-right"></i>
+          </div>
+
+          <nav class="flex">
+            <div class="link-wrap">
+              <div class="active page-link" dest="home">home</div>
+              <div class="page-link" dest="about">about</div>
+              
+              <div class="page-link" dest="portfolio">portfolio</div>
+              <div class="page-link" dest="blog">blog</div>
+              <div class="page-link" dest="contact">contact</div>
+            </div>
+            <i class="mdi mdi-menu"></i>
+          </nav>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about">
+        <div class="container flex">
+          <div class="header waypoint" data-animation="slide-in-left">
+            ABOUT
+          </div>
+          <div
+            class="header-bar waypoint"
+            data-animation="slide-in-left"
+            data-delay=".5s"
+          ></div>
+
+          <div class="flex row label-wrap">
+            <div class="flex row-gt-sm">
+              <div class="flex bullet-wrap ">
+                <div class="hex-wrap waypoint" data-animation="flip-in-x">
+                  <div class="hexagon">
+                    <i class="mdi mdi-speedometer"></i>
+                  </div>
+                </div>
+                <div class="waypoint" data-animation="fade-in">
+                  <div class="label bold">Fast</div>
+                  <div>
+                    The fastest load speeds and lag-free interaction on the website are my top priorities.
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex bullet-wrap ">
+                <div
+                  class="hex-wrap waypoint"
+                  data-animation="flip-in-x"
+                  data-delay=".2s"
+                >
+                  <div class="hexagon">
+                    <i class="mdi mdi-cellphone-link"></i>
+                  </div>
+                </div>
+                <div class="waypoint" data-animation="fade-in" data-delay=".2s">
+                  <div class="label bold">Responsive</div>
+                  <div>Regardless of size, any device may use my website layouts.</div>
+                </div>
+              </div>
+            </div>
+            <div class="flex row-gt-sm">
+              <div class="flex bullet-wrap ">
+                <div
+                  class="hex-wrap waypoint"
+                  data-animation="flip-in-x"
+                  data-delay=".4s"
+                >
+                  <div class="hexagon">
+                    <i class="mdi mdi-lightbulb-outline"></i>
+                  </div>
+                </div>
+                <div class="waypoint" data-animation="fade-in" data-delay=".4s">
+                  <div class="label bold">User-friendly</div>
+                  <div>Definite preference for user-friendly, intuitive UX/UI.</div>
+                </div>
+              </div>
+
+              <div class="flex bullet-wrap ">
+                <div
+                  class="hex-wrap waypoint"
+                  data-animation="flip-in-x"
+                  data-delay=".6s"
+                >
+                  <div class="hexagon">
+                    <i class="mdi mdi-rocket"></i>
+                  </div>
+                </div>
+                <div class="waypoint" data-animation="fade-in" data-delay=".6s">
+                  <div class="label bold">Dynamic</div>
+                  <div>
+                    I enjoy bringing life to pages on websites so they aren't static.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-wrapper flex row-gt-sm">
+            <div
+              class="flex flex-50-gt-sm waypoint"
+              data-animation="slide-in-left"
+            >
+              <!-- <img src="" class="me" /> -->
+              <div class="label bold">Who am I?</div>
+              <div>
+                I am a web developer with professional degree in technologies. I have my plans
+                                    at hands to serve all the niches of Web Development world.
+
+                                    I am confident of my websites enough to say that those are completely in vogue but I am always open to the 
+                                    new opportunities as I am never satisfied with just to build the ideas. Instead, I shape them into reality. 
+                                    I have professional background of learning the Web technologies as I am a graduate of Information Technology and I know
+                                    better the innovations. 
+                
+                <br />
+                <br>
+                <span class="page-link highlight" dest="contact"
+                  ><b style="font-size:20px ;"><mark>Let's collab and make something creative.</mark></b></span
+                >
+              </div>
+            </div>
+
+            <div
+              class="flex flex-50-gt-sm waypoint bars-wrap"
+              data-animation="slide-in-right"
+            >
+              <div class="bar flex">
+                <div class="bar fill" style="width:90%">
+                  <div class="tag bold flex">CSS</div>
+                </div>
+                <span>90%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:90%">
+                  <div class="tag bold flex">HTML</div>
+                </div>
+                <span>90%</span>
+              </div>
+
+            
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:80%">
+                  <div class="tag bold flex">JavaScript</div>
+                </div>
+                <span>85%</span>
+
+
+              </div>
+              <div class="bar flex">
+                <div class="bar fill" style="width:80%">
+                  <div class="tag bold flex">php</div>
+                </div>
+                <span>80%</span>
+              </div>
+
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PORTFOLIO -->
+      <section class="flex" id="portfolio">
+        <div class="header waypoint" data-animation="slide-in-right">
+          PROJECTS
+        </div>
+        <div
+          class="header-bar waypoint"
+          data-animation="slide-in-right"
+          data-delay=".3s"
+        ></div>
+
+        <div class="filter-wrap waypoint" data-animation="fade-in">
+          <div class="flex row">
+            <div class="filter" data-filter="all">all</div>
+            <div class="filter" data-filter=".pets">pets</div>
+            <div class="filter" data-filter=".rails">Marketing</div>
+            <div class="filter" data-filter=".react">Ice-Cream Parlour</div>
+            <div class="filter" data-filter=".js">Web Solutions</div>
+            <div class="filter" data-filter=".gw">Gym and Workout</div>
+            <div class="filter" data-filter=".bc">Bags and Clutches</div>
+
+
+          </div>
+          <div class="float-bar">
+            <div class="flex row">
+              <div class="filter" data-filter="all">all</div>
+              <div class="filter" data-filter=".pets">pets</div>
+              <div class="filter" data-filter=".rails">Marketing</div>
+              <div class="filter" data-filter=".react">Ice-Cream Parlour</div>
+              <div class="filter" data-filter=".js">Web Solutions</div>
+              <div class="filter" data-filter=".gw">Gym and Workout</div>
+              <div class="filter" data-filter=".bc">Bags and Clutches</div>
+
+            </div>
+          </div>
+        </div>
+    
+        <div id="gallery" class="container flex row wrap waypoint">
+          <div class="mix react" data-my-order="1">
+            <div>
+              <div class="card"></div>
+              <div class="text">
+                <div class="bold">Icecream Corner</div>
+                <!-- <span class="highlight">React JS / Python</span> -->
+              </div>
+              <!-- <div class="button" id="ordering">LEARN MORE</div> -->
+              <a class="button" href="https://shanzay160.github.io/IceCream-Parlour../"  target="_blank">VISIT SITE</a>          
+
+            </div>
+          </div>
+
+         
+          <div class="mix js" data-my-order="1">
+            <div>
+              <div class="card"></div>
+              <div class="text">
+                <div class="bold">Website solutions</div>
+              <!--   <span class="highlight">JavaScript</span> -->
+              </div>
+              <!-- <div class="button" id="roambi">LEARN MORE</div> -->
+              <a class="button" href="https://shanzay160.github.io/WebTincture/"  target="_blank">VISIT SITE</a>   
+                 
+
+            </div>
+          </div>
+
+          <div class="mix rails" data-my-order="1">
+            <div>
+              <div class="card"></div>
+              <div class="text">
+                <div class="bold">Marketing management</div>
+            <!--     <span class="highlight">JS / Ruby on Rails</span> -->
+              </div>
+            <!--   <div class="button" id="walker">LEARN MORE</div> -->
+            <a class="button" href="https://shanzay160.github.io/DigiServices/"  target="_blank">VISIT SITE</a>          
+
+            </div>
+          </div>
+
+
+          <div class="mix pets" data-my-order="1">
+            <div>
+              <div class="card"></div>
+              <div class="text">
+                <div class="bold">Cats and kittens</div>
+                
+               <!--  <span class="highlight">JS / Ruby on pets</span> -->
+              </div>
+              <!-- <div class="button" id="cats">LEARN MORE</div> -->
+              <a class="button" href="https://shanzay160.github.io/Pets/"  target="_blank">VISIT SITE</a>          
+
+            </div>
+          </div>
+
+          <div class="mix gw" data-my-order="1">
+            <div>
+              <div class="card"></div>
+              <div class="text">
+                <div class="bold">Exercise and workout</div>
+               <!--  <span class="highlight">JS / Ruby on pets</span> -->
+              </div>
+              <!-- <div class="button" id="cats">LEARN MORE</div> -->
+              <a class="button" href="https://shanzay160.github.io/Gymming-/"  target="_blank">VISIT SITE</a>          
+
+            </div>
+          </div>
+
+          <div class="mix bc" data-my-order="1">
+            <div>
+              <div class="card"></div>
+              <div class="text">
+                <div class="bold">Shop bags</div>
+               <!--  <span class="highlight">JS / Ruby on pets</span> -->
+              </div>
+             <!--  <div class="button" id="cats">LEARN MORE</div> -->
+             <a class="button" href="https://shanzay160.github.io/HTML-Site/"  target="_blank">VISIT SITE</a>          
+
+            </div>
+          </div>
+
+
+
+          
+        </div>
+      </section>
+
+      
+
+      <!-- BLOG -->
+      <section id="blog">
+        <div class="container flex">
+          <div class="header waypoint" data-animation="slide-in-left">BLOG </div>
+          <p>You can read and enjoy my latest blogs here</p>
+          <div
+            class="header-bar waypoint"
+            data-animation="slide-in-left"
+            data-delay=".5s"
+          ></div>
+
+          <div class="flex row wrap">
+            <div class="flex row-gt-sm">
+              <a
+                href="https://shanzaytariq124.medium.com/how-to-buy-a-dog-check-dogs-health-with-vet-s-advice-avoid-pet-scams-with-pictures-c2ec76f32733"
+                target="_blank">
+                <div class="blog-wrap waypoint" data-animation="fade-in">
+                  <div class="fade-wrap">
+                    <div class="thumb" id="thumb-1"></div>
+                    <div class="label bold">How to buy a dog?</div>
+                  <!--   <div class="date">APRIL 29, 2016</div> -->
+                    <div class="bar"></div>
+                    <div class="text">
+                      You might be wondering where and how to buy a dog and get it home. Concerning your love for your darling dog, 
+                      we’ve covered all the specs to be kept in mind while going to buy a dog....
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a
+                href="https://shanzaytariq124.medium.com/nutritionist-reveals-how-much-junk-food-is-safe-for-your-body-10-tips-on-how-can-you-avoid-d0d7775ab847"
+                target="_blank"
+              >
+                <div
+                  class="blog-wrap waypoint"
+                  data-animation="fade-in"
+                  data-delay=".2s"
+                >
+                  <div class="fade-wrap">
+                    <div class="thumb" id="thumb-2"></div>
+                    <div class="label bold">
+                      Nutritionist Reveals How Much Junk Food is Safe for Your Body
+                    </div>
+                    <!-- <div class="date">MARCH 19, 2015</div> -->
+                    <div class="bar"></div>
+                    <div class="text">
+                      Well, I’m not asking you to quit eating your favorite Pepperoni Pizza, water filled in your mouth? mine too.
+                       but I’m here to help you figure out the right amount of junk food for your body according to your age...
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="flex row-gt-sm">
+              <a
+                href="https://shanzaytariq124.medium.com/grab-dermatologists-revealing-16-beauty-tips-to-look-attractive-naturally-zero-makeup-hacks-to-b956cba831ee"
+                target="_blank"
+              >
+                <div
+                  class="blog-wrap waypoint"
+                  data-animation="fade-in"
+                  data-delay=".4s"
+                >
+                  <div class="fade-wrap">
+                    <div class="thumb" id="thumb-3"></div>
+                    <div class="label bold">Dermatologists revealed 16 Beauty Tips to Look Attractive Naturally</div>
+                    <!-- <div class="date">MARCH 04, 2015</div> -->
+                    <div class="bar"></div>
+                    <div class="text">
+                      An American Dermatologist in Dermato-Endocrinology (a journal) published the relationship of diet with acne.
+                       He claimed in his "Article" that skin-related problems can be just treated through...
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a
+                href="https://shanzaytariq124.medium.com/augmented-reality-technology-ar-the-future-boss-10-applications-of-ar-4ec731ee0766"
+                target="_blank"
+              >
+                <div
+                  class="blog-wrap waypoint"
+                  data-animation="fade-in"
+                  data-delay=".6s"
+                >
+                  <div class="fade-wrap">
+                    <div class="thumb" id="thumb-4"></div>
+                    <div class="label bold">
+                      Augmented Reality Technology (AR)- The Future Boss— 10 Applications of AR
+                    </div>
+                    <!-- <div class="date">FEBRUARY 23, 2015</div> -->
+                    <div class="bar"></div>
+                    <div class="text">
+                      As the Research says that Augmented Reality Technology (AR) has helped kids learn from
+                       AR through different games and toys. In fact, a research study was
+                        conducted in a school to check...
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT FORM-->
+      <section id="contact">
+        <svg
+          preserveAspectRatio="none"
+          viewBox="0 0 100 102"
+          height="35"
+          width="100%"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          class="svgcolor-light"
+        >
+          <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
+        </svg>
+        <div class="container flex">
+          <div class="header waypoint" data-animation="slide-in-left">
+           
+          </div>
+        <p STYLE="FONT-SIZE:30PX; font-style:CURSIVE">  CONTACT
+        <div class="container2"> 
+          
+          <form action="https://formsubmit.co/el/xafuke" method="POST" target="blank">
+            
+          <input type="text" name="name" required placeholder="Your name" style="font-size:25px;">
+        <input type="email" name="email" required placeholder="Email id" style="font-size:25px;">
+        <!-- <textarea name="message required pla --><!-- placeholder="How can we help you?" --> <!-- style="font-size:25px;"> </textarea> -->
+              <button type="submit" style="font-size:25px;" target="_blank"><a href="https://formsubmit.co/el/xafuke">Your message here</button></a> 
+              
+         </form>
+         </div>
+          <!-- <form onsubmit="sendEmail(); reset(); return false;"> -->
+         
+           <!--  <h3 style="font-size:15px; color:black;"> GET IN TOUCH</h3> 
+          <input type="text" name="name" style="font-size:20px; color:white;" placeholder="Your Name" required>
+          <input type="email" name="email" style="font-size:20px; color:white;" placeholder="Email id"   required> 
+         
+          <textarea name="message" style="font-size:20px; color:white;" rows="4" placeholder="How can we help you?" style="font-size:20px; color:black;"></textarea>
+          <button type="submit" style="font-size:20px;"> Send </button>
+           </form>
+           </div>  -->
+          <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+          
+          
+          
+          <!-- <script> 
+          function sendEmail(){ 
+          Email.send({
+          Host : "smtp.gmail.com", 
+          Username : "shanzaytariq124@gmail.com", 
+          Password : "freelancing*",
+          To : 'shanzaytariq124@gmail.com', 
+          From : document.getElementById("email").value, 
+          Subject : "New Contact Form Enquiry",
+          Body :"and this is the BODY"
+          /* "Name: " + document.getElementById("name").value
+    + "<br> Email: " + document.getElementById("email").value 
+    + "<br> Pnone no: " + document.getElementById("phone").value 
+    + "<br> Message: " + document.getElementById("message").value  */
+          }).then( 
+          message => alert(message)
+          );
+          }
+          </script> -->
+
+
+</section>
+<!-- footer -->
+<DIV>
+      <footer>
+        
+        <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
+
+        <div class="icon-wrap flex row">
+          <a href="https://www.linkedin.com/in/shanzay-tariq-8831a9222/">
+            <div class="flex icon" id="icon-2">
+              <!-- <i class="mdi mdi-linkedin"></i> -->
+              <i class="mdi" style="font-size: 30px; font-weight: 700;">in</i>
+            </div>
+          </a>
+          <a href="https://www.facebook.com/shanzay.tariq.29/">
+            <div class="flex icon" id="icon-3">
+             <!--  <i class="mdi mdi-facebook"></i> -->
+             <i class="mdi" style="font-size: 30px; font-style:Klavika ; font-weight: 700;">f</i>
+            </div>
+          </a>
+         <a href="https://twitter.com/ShanzayTariq29">
+            <div class="flex icon" id="icon-4">
+              <i class="mdi mdi-twitter"></i>
+            </div>
+          </a>
+         
+        </div>
+        <div class="info-box">
+          <div class="footnote" >
+            Shanzay Tariq <span class="highlight" style="color:red;">&copy;2022</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    </div>
+
+   <!--  all images -->
+    <div id="preload">
+   <!--    <img src="img/me.png" /> -->
+      <img src="img/citylights.jpg" />
+      <img src="img/thumb-1.jpg" />
+      <img src="img/thumb-2.jpg" />
+      <img src="img/thumb-3.jpg" />
+      <img src="img/thumb-4.jpg" />
+      <img src="img/thumb-5.jpg" />
+      <img src="img/thumb-6.jpg" />
+      <img src="img/blog-1.jpg" />
+      <img src="img/blog-2.jpg" />
+      <img src="img/blog-3.jpg" />
+      <img src="img/blog-4.jpg" />
+      
+    </div>
+        
+       
+  </body>
+
+
+</html>
+
+<script src="scripts/canvas.js"></script>
